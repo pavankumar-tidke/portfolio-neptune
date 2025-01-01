@@ -5,8 +5,30 @@ import figma from "/assets/images/Skills/figma.png";
 import sketch from "/assets/images/Skills/sketch.png";
 import ps from "/assets/images/Skills/ps.png";
 import reactjs from "/assets/images/Skills/react.png";
-import nodejs from "/assets/images/Skills/node.png";
+import typescript from "/assets/images/Skills/typescript.png";
+import c from "/assets/images/Skills/c.png";
+import c_plus_plus from "/assets/images/Skills/c_plus_plus.png";
 import python from "/assets/images/Skills/python.png";
+import nodejs from "/assets/images/Skills/node.png";
+import aws from "/assets/images/Skills/aws.png";
+import docker from "/assets/images/Skills/docker.png";
+import kubernetes from "/assets/images/Skills/kubernetes.png";
+import git from "/assets/images/Skills/git.png";
+import javascript from "/assets/images/Skills/javascript.png";
+import jenkins from "/assets/images/Skills/jenkins.png";
+import gitlab from "/assets/images/Skills/gitlab.png";
+import bitbucket from "/assets/images/Skills/bitbucket.png";
+import ansible from "/assets/images/Skills/ansible.png";
+import terraform from "/assets/images/Skills/terraform.png";
+import azure from "/assets/images/Skills/azure.png";
+import gcp from "/assets/images/Skills/gcp.png";
+import mongodb from "/assets/images/Skills/mongodb.png";
+import postgresql from "/assets/images/Skills/postgresql.png";
+import redis from "/assets/images/Skills/redis.png";
+import kafka from "/assets/images/Skills/kafka.png";
+import linux from "/assets/images/Skills/linux.png";
+import bash from "/assets/images/Skills/bash.png";
+import arduino from "/assets/images/Skills/arduino.png";
 
 import services_logo1 from "/assets/images/Services/logo1.png";
 import services_logo2 from "/assets/images/Services/logo2.png";
@@ -65,11 +87,11 @@ export const content = {
     image: Hero_person,
     hero_content: [
       {
-        count: "8+",
-        text: "Years of Experinse in Web development",
+        count: "4+",
+        text: "Years of Experinse in Web and Apps development",
       },
       {
-        count: "20+",
+        count: "15+",
         text: "Projects Worked in my career",
       },
     ],
@@ -79,8 +101,123 @@ export const content = {
     subtitle: "MY TOP SKILLS",
     skills_content: [
       {
+        name: "React js",
+        para: "Worked on react since 2021",
+        logo: reactjs,
+      },
+      {
+        name: "Typescript",
+        para: "Intermediate level of experience in typescript",
+        logo: typescript,
+      },
+      {
+        name: "Javascript",
+        para: "Expert level of experience in javascript",
+        logo: javascript,
+      },
+      {
+        name: "AWS",
+        para: "I've worked on AWS for 3 years",
+        logo: aws,
+      },
+      {
+        name: "Docker",
+        para: "Intermediate level of experience in docker",
+        logo: docker,
+      },
+      {
+        name: "Kubernetes",
+        para: "Intermediate level of experience in kubernetes",
+        logo: kubernetes,
+      },
+      {
+        name: "Git",
+        para: "Intermediate level of experience in git",
+        logo: git,
+      },
+      {   
+        name: "C",
+        para: "Intermediate level of experience in C/C++",
+        logo: c_plus_plus,
+      },
+      {   
+        name: "C++",
+        para: "Intermediate level of experience in C/C++",
+        logo: c,
+      },
+      {
+        name: "Jenkins",
+        para: "Experienced in CI/CD pipeline automation",
+        logo: jenkins,
+      },
+      {
+        name: "Ansible",
+        para: "Intermediate level of experience in ansible",
+        logo: ansible,
+      },
+      {
+        name: "GitLab CI",
+        para: "Proficient in GitLab CI/CD workflows",
+        logo: gitlab,
+      },
+      {
+        name: "Bitbucket",
+        para: "Intermediate level of experience in bitbucket",
+        logo: bitbucket,
+      },
+      {
+        name: "Azure DevOps",
+        para: "Experience with Azure Pipelines and DevOps practices",
+        logo: azure,
+      },
+      {
+        name: "Terraform",
+        para: "Infrastructure as Code using Terraform",
+        logo: terraform,
+      },
+      {
+        name: "Google Cloud",
+        para: "Cloud infrastructure and services on GCP",
+        logo: gcp,
+      },
+      {
+        name: "MongoDB",
+        para: "NoSQL database design and management",
+        logo: mongodb,
+      },
+      {
+        name: "PostgreSQL",
+        para: "Relational database management and optimization",
+        logo: postgresql,
+      },
+      {
+        name: "Redis",
+        para: "In-memory data structure store and caching",
+        logo: redis,
+      },
+      {
+        name: "Apache Kafka",
+        para: "Distributed streaming platform expertise",
+        logo: kafka,
+      },
+      {
+        name: "Linux Administration",
+        para: "System administration and shell scripting",
+        logo: linux,
+      },
+      {
+        name: "Arduino",
+        para: "Intermediate level of experience in arduino",
+        logo: arduino,
+      },
+      {
+        name: "Bash Scripting",
+        para: "Advanced shell scripting and automation",
+        logo: bash,
+      },
+      {
         name: "Figma",
-        para: "Lorem ipsum text  dummy",
+        para: "Intermediate level of experience in figma",
         logo: figma,
       },
       {
@@ -93,21 +230,27 @@ export const content = {
         para: "Lorem ipsum text  dummy",
         logo: ps,
       },
-      {
-        name: "React js",
-        para: "Lorem ipsum text  dummy",
-        logo: reactjs,
-      },
-      {
-        name: "Sketch",
-        para: "Lorem ipsum text  dummy",
-        logo: sketch,
-      },
-      {
-        name: "Python",
-        para: "Lorem ipsum text  dummy",
-        logo: python,
-      },
+      // {
+      //   name: "Python",
+      //   para: "Lorem ipsum text  dummy",
+      //   logo: python,
+      // },
+      // {
+      //   name: "System Security",
+      //   para: "Linux security hardening and best practices",
+      //   logo: security,
+      // },
+      // {
+      //   name: "Network Administration",
+      //   para: "Linux networking and troubleshooting",
+      //   logo: network,
+      // },
+      // {
+      //   name: "Apache Spark",
+      //   para: "Big data processing and analytics",
+      //   logo: spark,
+      // },
+      
     ],
     icon: MdArrowForward,
   },
